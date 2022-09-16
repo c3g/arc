@@ -59,6 +59,8 @@ The data group develops web front end and back end system to share and manage re
 
 ----------------------------------------------------------
 
+I want to be more specific with what we want to do with the data group. Then is another sectonc describe the specific services and what they will do exactly. 
+
 
 
 
