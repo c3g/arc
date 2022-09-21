@@ -25,42 +25,47 @@ We can split the people we help in two groups, an internal one, which mainly com
 Form the CQ and the Alliance perspective, we are offering local service where they are respectively responsible to offer regional and national service.
 
 
-## The kind of service we offer
+## The support we offer
 
 On a more concrete level, we write code and documentation so that infrastructure we have is able to do what the C3G wants to do with it! But, then what does the C3G wants?
 
-First, the Tech/Dev group. Is mainly composed of bioinformatician. They develop benchmark and run the (Genpipes)[https://genpipes.readthedocs.io] analysis pipelines as well as other bioinfo tools. They generate large amount of data and they need to move that data around, they are also hopefully transitioning do databases to track the location and state of their data.
+First, the Tech/Dev group. Is mainly composed of bioinformatician. They develop benchmark and run the (Genpipes)[https://genpipes.readthedocs.io] analysis pipelines as well as other bio-info tools. They generate large amount of data and they need to move that data around, they are also, hopefully, transitioning do databases to track the location and state of their data.
 
-Here is some of the tools we work on for them at the moment:
+Here is some of the tools we support for them at the moment:
 
 * [Continuous integration testing](https://jenkins.vhost38.genap.ca/)
 * Mugqic [CVMFS](https://cvmfs.readthedocs.io) stack
 * [Genpipes in a Container](https://hub.docker.com/r/c3genomics/genpipes/)
 * [Magic Castle](https://github.com/ComputeCanada/magic_castle/)
-* The access to their platform is secure as well as easy.
 
 Here are some of the things we expect doing for them in the future:
 
   * Database management so they can track process and data
   * Deploy some kind of [Nexflow Execution engine](https://www.nextflow.io/docs/latest/executor.html)
 
-Note that the TechDev groups work in close collaboration with the Service group that help then run analysis on large project, like the Marathon of Hope (MoH).
+Note that the TechDev groups work in close collaboration with the Service group that help them run analysis on large project, like the Marathon of Hope (MoH).
+
+The second group we serve is the Data group. One of their projects is the [Bento platform](https://github.com/bento-platform). They also work on a [LIMS](https://en.wikipedia.org/wiki/Laboratory_information_management_system), called [freezeman](https://github.com/c3g/freezeman).
+
+The data group develops web front end and back end system to share and manage research data. As such they have front end and back end developer, they also have data architect, which can could handy if we want advice or help in these area. We wake sure that:
+
+* They have the right architecture and tooling do develop and deploy their platforms in general, and more specifically on our OpenStack cloud.
+* They can identify and on board users that need access to their platforms.
+
+This last point about identity is really important and will, in fact be one of the first service that we want to deploy on the SD4H platform.
 
 
-The second group we serve is the Data group. One of their project is the [Bento platform](https://github.com/bento-platform). They also work on a [LIMS](https://en.wikipedia.org/wiki/Laboratory_information_management_system), called [freezeman](https://github.com/c3g/freezeman).
+### Specific services
 
-The data group develops web front end and back end system to share and manage research data. As such they have front end and back end developer, they also have data architect, which can come handy. For them:
+A [Comanage Registry](https://github.com/Internet2/comanage-registry) instance to give access to Bento clients via the [OIDC protocol](https://openid.net/connect/). This federated authorization platform is pretty flexible. We first want to use it with a local keycloak as the identity provider , but would like to also have the [Canadian Access Federation (CAF)](https://www.canarie.ca/identity/caf/), we could also add other provider like google.
 
-* Make sure they has the right architecture and tooling do develop and deploy their platforms.
-* They can easily deploy their services on the SD4H platform in a more general sense.
-* The access to their platform is secure as well as easy.
+
 
 
 
 ----------------------------------------------------------
 
-I want to be more specific with what we want to do with the data group. Then is another sectonc describe the specific services and what they will do exactly. 
-
+I want to be more specific with what we want to do with the data group. Then is another section describe the specific services and what they will do for us and/our our users.
 
 
 
