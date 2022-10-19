@@ -18,14 +18,26 @@ We also have human resources to support us.
 
 Our main service provider and collaborators are from [Calcul Québec](https://www.calculquebec.ca/) (CQ) and from the [Digital Research Alliance of Canada](https://alliancecan.ca/) (the Alliance). From their point of view, we are a local service provider and we can rely on them to access regional services, provided by CQ and national services, provided by the Alliance. The Alliance is a federation of groups, some like us integrated in to a research lab, while other are integrated to large regional or national service teams. The main way of communication with our regional and national collegues is through slack [CQ](https://calculquebec.slack.com) and [Alliance](https://alliancecan.slack.com).
 
-
 We can also rely to some extent on the Genome Center (GC) IT group, especially when it comes to make sure that our systems are well connected to the GC HPC and storage systems or to other hardware related to the GC sequencing mission, but the GC IT is not supporting the hardware resources listed above. We can always go the the 7th floor of the GC to meet them, but they also have a [ticketing system](it.genome@mail.mcgill.ca>).
 
-## Our projects
+## Our current projects
 
-We offer support for C3G projects as well as project that comes form outide through the SD4H platfom.    
 
-Our procedure is typically to develop and deploy service for a project that will help other C3G team deliver scientific data and share that data to collaborator or the general public. We want to make sure that what we deliverd software and platform that is well packaged and that the service robust are enough so they can be redeployed for other C3G projects and then be offered more broadly to SD4H projects outside of the C3G.
+#### SD4H
+
+Our first project it the SD4H platform itself we want it to be succesfull, to do so we do outreach to potential user and show them how the platform can be leveradged. 
+
+#### MoH
+
+The Marathon of Hope is a large sequencing project at the center we want to deliver computing power as well as data management capability to the C3G TechDev team for that project so they can process the data efficiently. 
+
+The C3G Data team in also involve in MoH. We help them deploy their bento system on the platform and also make sure they can easily acces and share the data produces by the TechDev team. 
+
+#### BQC19
+
+We support the Data team so they can share the BQC19 data.
+
+
 
 ## The support we offer
 
