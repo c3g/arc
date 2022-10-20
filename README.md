@@ -33,7 +33,7 @@ The Marathon of Hope is a large sequencing project at the center we want to deli
 
 The C3G Data team in also involve in MoH. We help them deploy their bento system on the platform and also make sure they can easily acces and share the data produces by the TechDev team. 
 
-  * Deploye a Database with secure login
+  * Deploye a post gress Database with secure login
   * Deploy a [SD4H DRS](https://ga4gh.github.io/data-repository-service-schemas/) with [passport and visas](https://github.com/ga4gh-duri/ga4gh-duri.github.io/blob/master/researcher_ids/ga4gh_passport_v1.md)
   
 
@@ -43,7 +43,8 @@ The C3G Data team in also involve in MoH. We help them deploy their bento system
 
 We support the Data team so they can share the BQC19 data.
 
-  * Make sure , in collaboration with CQ, that the SD4H Globus platfom 
+  * Make sure , in collaboration with CQ, that the [Globus platfom](https://www.globus.org/) is running properly. 
+
 
 ## The support we offer
 
