@@ -25,7 +25,7 @@ We can also rely to some extent on the Genome Center (GC) IT group, especially w
 
 #### SD4H
 
-Our first project it the SD4H platform itself we want it to be succesfull, to do so we do outreach to potential user and show them how the platform can be leveradged. 
+Our first project it the SD4H platform itself we want it to be succesfull, to do so we do outreach to potential user and show them how the platform can be leverage. 
 
 #### MoH
 
@@ -33,9 +33,9 @@ The Marathon of Hope is a large sequencing project at the center we want to deli
 
 The C3G Data team in also involve in MoH. We help them deploy their bento system on the platform and also make sure they can easily acces and share the data produces by the TechDev team. 
 
-  * Deploye a post gress Database with secure login
-  * Deploy a [SD4H DRS](https://ga4gh.github.io/data-repository-service-schemas/) with [passport and visas](https://github.com/ga4gh-duri/ga4gh-duri.github.io/blob/master/researcher_ids/ga4gh_passport_v1.md)
-  
+  * Deploye a post gress Database with secure login on the secure cloud.
+  * Deploy a [SD4H DRS](https://ga4gh.github.io/data-repository-service-schemas/) with [passport and visas](https://github.com/ga4gh-duri/ga4gh-duri.github.io/blob/master/researcher_ids/ga4gh_passport_v1.md) on the secure cloud
+  * Test and deploye the Magic Castle project to run the tumor pair pipeline on the secure cloud. 
 
 
 
@@ -43,12 +43,11 @@ The C3G Data team in also involve in MoH. We help them deploy their bento system
 
 We support the Data team so they can share the BQC19 data.
 
-  * Make sure , in collaboration with CQ, that the [Globus platfom](https://www.globus.org/) is running properly. 
+  * Make sure , in collaboration with CQ, that the [Globus platfom](https://www.globus.org/) is running properly on the secure cloud. 
 
 
-## The support we offer
 
-On a more concrete level, we write code and documentation so that infrastructure we have is able to do what the C3G wants to do with it! But, then what does the C3G wants?
+## Synergy with other C3G groups
 
 First, the Tech/Dev group. Is mainly composed of bioinformatician. They develop benchmark and run the (Genpipes)[https://genpipes.readthedocs.io] analysis pipelines as well as other bio-info tools. They generate large amount of data and they need to move that data around, they are also, transitioning do databases to track the location and state of their data.
 
@@ -59,24 +58,23 @@ Here is some of the tools we support with or for them at the moment:
 * [Genpipes in a Container](https://hub.docker.com/r/c3genomics/genpipes/)
 * [Magic Castle](https://github.com/ComputeCanada/magic_castle/)
 
-Here are some of the things we expect doing for them in the future:
 
-  * Database management so they can track process and data
-  * Deploy some kind of [Nexflow Execution engine](https://www.nextflow.io/docs/latest/executor.html)
+The Data groups goal is too make our data available to the broader comunity. To do so, they develop their own system, the [Bento platform](https://github.com/bento-platform). They also work on a [LIMS](https://en.wikipedia.org/wiki/Laboratory_information_management_system), called [freezeman](https://github.com/c3g/freezeman). They also manage data acces to exeternal group on the Globus Platform. 
 
-Note that the TechDev groups work in close collaboration with the Service group that help them run analysis on large project.
-
-The second group we serve is the Data group. One of their projects is the [Bento platform](https://github.com/bento-platform). They also work on a [LIMS](https://en.wikipedia.org/wiki/Laboratory_information_management_system), called [freezeman](https://github.com/c3g/freezeman).
-
-The data group develops web front end and back end system to share and manage research data. As such they have front end and back end developer, they also have data architect, which can could handy if we want advice or help in these area. We wake sure that:
+The data group develops web front end and back end systems to share and manage research data. As such they have front end and back end developer, they also have data architects, which can comes handy when we want advices or help in these area. We wake sure that:
 
 * They have the right architecture and tooling do develop and deploy their platforms in general, and more specifically on our OpenStack cloud.
-* They can identify and on board users that need access to their platforms.
+* They can identify and onboard users that need access to their platforms with the right idientity management tooling.
 
-This last point about identity is really important and will, in fact be one of the first service that we want to deploy on the SD4H platform.
+This last point about identity is really important and will, in fact be one of the central services that we want to deploy on the SD4H platform.
+
+The TechDev and Data groups works in close collaboration with the Service group. Service help them run analysis and share data on large project. The service team will aslo be the first users of the techdev tools. If we do our work properly with the TechDev and Data teams, Services should be able to use what we have work on witout much problems. They are our first _production_ users.    
+
+### Identiry and Autentication
 
 
-### Specific services or platform
+One of the underlying point of all the project we will work on is the identification and autentication of users on the platform. 
+
 
 A [Comanage Registry](https://github.com/Internet2/comanage-registry) instance to give access to Bento clients via the [OIDC protocol](https://openid.net/connect/). This federated authorization platform is pretty flexible. We first want to use it with a local keycloak as the identity provider and the google id of the c3g (computationalgenimics.ca), but would like to also have the [Canadian Access Federation (CAF)](https://www.canarie.ca/identity/caf/), we could also add other provider like google.
 
@@ -85,14 +83,3 @@ A [Comanage Registry](https://github.com/Internet2/comanage-registry) instance t
 
 
 
-
-----------------------------------------------------------
-
-I want to be more specific with what we want to do with the data group. Then is another section describe the specific services and what they will do for us and/our our users.
-
-
-
-  * Collaborate with the CQ administrator so make sure that the OpenStack configuration is right so to enable our activities. This is the [first requirement document](https://docs.google.com/document/d/1yC_ASp9prl9D2stVEH1ryYWroZMCQ6qo5-kWa0lZxOU/) we have with them.  
-
-
-* Deploy and maintain an authentication service that will serve as a gatekeeper for as much of our services as possible.
