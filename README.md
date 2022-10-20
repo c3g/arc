@@ -29,15 +29,21 @@ Our first project it the SD4H platform itself we want it to be succesfull, to do
 
 #### MoH
 
-The Marathon of Hope is a large sequencing project at the center we want to deliver computing power as well as data management capability to the C3G TechDev team for that project so they can process the data efficiently. 
+The Marathon of Hope is a large sequencing project at the center we want to deliver computing power as well as data management capability to the C3G TechDev so they can process the data efficiently. 
 
 The C3G Data team in also involve in MoH. We help them deploy their bento system on the platform and also make sure they can easily acces and share the data produces by the TechDev team. 
+
+  * Deploye a Database with secure login
+  * Deploy a [SD4H DRS](https://ga4gh.github.io/data-repository-service-schemas/) with [passport and visas](https://github.com/ga4gh-duri/ga4gh-duri.github.io/blob/master/researcher_ids/ga4gh_passport_v1.md)
+  
+
+
 
 #### BQC19
 
 We support the Data team so they can share the BQC19 data.
 
-
+  * Make sure , in collaboration with CQ, that the SD4H Globus platfom 
 
 ## The support we offer
 
