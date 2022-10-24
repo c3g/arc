@@ -70,7 +70,9 @@ This last point about identity is really important and will, in fact be one of t
 
 The TechDev and Data groups works in close collaboration with the Service group. Service help them run analysis and share data on large project. The service team will aslo be the first users of the techdev tools. If we do our work properly with the TechDev and Data teams, Services should be able to use what we have work on witout much problems. They are our first _production_ users.    
 
-### Identiry and Autentication
+
+
+### Identity and Autentication
 
 
 One of the underlying point of all the project we will work on is the identification and autentication of users on the platform. 
