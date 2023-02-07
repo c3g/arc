@@ -11,7 +11,7 @@ We want to provide the resources as much as possible is a digested form like Paa
 Our hardware resources are mainly:
 
 * [The SD4H secure cloud](https://www.sd4health.ca/)
-* [Juno (the old secure cloud)](https://esc.calculquebec.ca/auth/login/?next=/)
+* The elastic secure cloud (esc) also known as the [old secure cloud](https://esc.calculquebec.ca/auth/login/?next=/)
 * [The Alliance Systems (mainly HPC, but also cloud tape services)](https://docs.alliancecan.ca/wiki/Technical_documentation)
 
 We also have human resources to support us.
