@@ -77,8 +77,7 @@ The TechDev and Data groups works in close collaboration with the Service group.
 
 One of the underlying point of all the project we will work on is the identification and autentication of users on the platform. 
 
-
-A [Comanage Registry](https://github.com/Internet2/comanage-registry) instance to give access to Bento clients via the [OIDC protocol](https://openid.net/connect/). This federated authorization platform is pretty flexible. We first want to use it with a local keycloak as the identity provider and the google id of the c3g (computationalgenimics.ca), but would like to also have the [Canadian Access Federation (CAF)](https://www.canarie.ca/identity/caf/), we could also add other provider like google.
+We support a [Keycloak](https://www.keycloak.org/) instance to give access to C3G Bento instance and other systems deployed for the C3G.
 
 
 
